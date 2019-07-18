@@ -1,4 +1,4 @@
-/*-------------
+﻿/*-------------
  Основные
  -------------*/
 
@@ -154,6 +154,46 @@ margin-top: 5px;
   margin-top: 10px;
 }
 
+/*contetn*/
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
+  justify-content: space-around;
+ }
+ 
+ .project {
+   color: #000;
+   font-size: 26px;
+   font-weight: 700;
+  }
+ 
+ .disk ul li p {
+     color: #000;
+   font-size: 16px;
+ }
+ 
+ .disk-img {
+   float: left;
+   display: flex
+ }
+ 
+ .project-list {
+font-weight: 700;
+font-size: 40px;
+color: #000;
+ 
+}
+ 
+ .bar-rights {
+   margin: 5px;
+   padding: 5px;
+   flex: 1 1 auto;
+   align-self: stretch;
+ }
+
 /*heder media*/
 
 @media (max-width: 670px) {
@@ -171,3 +211,6 @@ margin-top: 5px;
   }
  }
 
+
+
+ 
